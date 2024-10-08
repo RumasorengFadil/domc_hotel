@@ -1,0 +1,63 @@
+.hotel-card{
+    width: 340px;
+    background-color: #FFFFFF;
+    margin:32px;
+    position: relative;
+
+    &-img{
+        width: 100%;
+        height: 185px;
+    }
+    &-body{
+        margin-top: 32px;
+        padding: 0 12px 12px 12px;
+    }
+    &-ratingcn{
+        margin-top: '8px';
+        color: '#98A2B3';
+        margin-bottom: 8px;
+    }
+    &-title{
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+    &-text{
+        font-size: 16px;
+    }
+    &-actions{
+        display: flex;
+        align-items: center;
+        margin-top: 16px;
+    }
+    &-icncn{
+        border-radius: 36px;
+        height: max-content;
+        font-size: 16px;
+        margin: 0 8px;
+        padding: 13px 12px;
+        border: 1px solid #98A2B3;
+    }
+    &-price{
+        width: 72px;
+        height: 72px;
+        background-color: #FFFFFF;
+        border-radius: 90px;
+        box-shadow: 0 2px 4px 0 rgba($color: #000000, $alpha: 0.25);
+        position: absolute;
+        transform: translateY(-50%);
+        right: 20px;
+        font-weight: bold;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 40px;
+}

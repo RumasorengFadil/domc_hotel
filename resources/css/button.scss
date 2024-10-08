@@ -1,0 +1,13 @@
+.btn {
+    width: max-content;
+    display: block;
+    margin: 64px auto 0 auto;
+    &-text {
+        padding: 13px 12px;
+        background-color: #ffffff;
+        border-radius: 30px;
+        display: inline-block;
+        text-align: center;
+        font-size: 16px;
+    }
+}

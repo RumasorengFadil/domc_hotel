@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+$color-primary: #175CD3;
+$color-secondary: #FDB022;
+$color-on-primary : #FFFFFF;
+$color-on-background : #000000;
+$background-color : #F9FAFB;
+$nav-background-color : #F9FAFB;
+$icon-size : 1.5rem;
+$slider-nav-color : #F2F4F7;
+$search-input-color :#EAECF0;
+$alpha : 0.25;
+$sm-device : 37.5rem; //600px
+$me-device : 45rem; //720px
+$lg-device : 60rem; //960px
+$btn-color-primary : #175CD3;
+$btn-color-secondary : #D1E9FF ;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+body{
+    font-family: 'Raleway', system-ui, sans-serif;
+}
+html{
+    @media only screen and (min-width : $me-device){
+        font-size: 117%;
+    }
+    @media only screen and (min-width : $lg-device){
+        font-size: 135%;
+    }
+}
+.oswald{
+    font-family: 'Oswald';
+}
+.raleway{
+    font-family: 'Raleway';
+}
